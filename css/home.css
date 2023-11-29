@@ -216,4 +216,7 @@ h2 {
         height: 55px;
         border-radius: 50%;
     }
+    .driver-info > p {
+        font-size: 15px;
+    }
 }
