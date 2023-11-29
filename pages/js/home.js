@@ -75,7 +75,7 @@ fetch('https://garbage-collect-backend.onrender.com/get-all-assigned-work')
                                     let queryString = Object.entries(sendData).map(([key, value]) => `${key}=${value}`).join('&');
 
                                     // Redirect to snd.html with the data
-                                    window.location.href = `TrackingPage.html?${queryString}`;
+                                    window.location.href = `/pages/TrackingPage.html?${queryString}`;
                                 });
 
                                 // Append elements to the driver section
